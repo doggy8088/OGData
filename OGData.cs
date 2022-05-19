@@ -80,13 +80,13 @@ public class OGData
                         // -----------------------------------------------------
 
                         extensionSettings.AddParameter("OGDataTitle", "Add title", 30, false, true, ParameterType.String);
-                        extensionSettings.AddParameter("OGDataImage", "Defaul path image", 100, false, true, ParameterType.String);
+                        extensionSettings.AddParameter("OGDataImage", "Default path image", 100, false, true, ParameterType.String);
 
                         extensionSettings.AddValue("OGDataTitle", "");
                         extensionSettings.AddValue("OGDataImage", "");
 
                         // describe specific rules for entering parameters
-                        extensionSettings.Help = @"You can choose the test to add to the title and the default image";
+                        extensionSettings.Help = @"You can add the page title postfix and the default image";
 
                         //extensionSettings.AddValues(new[] { "b", "strong", string.Empty });
 
